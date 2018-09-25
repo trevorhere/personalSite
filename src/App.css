@@ -148,6 +148,19 @@
   left: 0;
 }
 
+.modal {
+  position: absolute;
+  z-index: 1;
+  top: 1000px;
+  padding: 15px 20px;
+  transition: 0.1s;
+  background: rgba(32,32,32,0.9);
+  height: 100%;
+  width: 100%;
+  left: 0;
+
+}
+
 .SliderContainer:hover .SliderItem {
   color:white;
   overflow: hidden;

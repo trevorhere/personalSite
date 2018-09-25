@@ -28,8 +28,8 @@ export default class PopUp extends Component {
                 <input type="button" value="Open" onClick={() => this.openModal()} />
                 <Modal visible={this.state.visible} width="90%" height="90%" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                     <div>
-                        <h1>Title</h1>
-                        <p>Some Contents</p>
+                        <h1>{this.props.Title}</h1>
+                        <p>{this.props.description}</p>
                         <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
                     </div>
                 </Modal>

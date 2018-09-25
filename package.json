@@ -1,8 +1,8 @@
 {
-  "name": "recroot-box",
+  "name": "TL",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://trevorhere.github.io/trevorlane.xyz",
+  "homepage": "http://trevorlane.net",
   "dependencies": {
     "react": "^16.4.1",
     "react-awesome-modal": "^2.0.5",
@@ -21,7 +21,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.0",
-    "react-static-generator": "^0.1.2"
+    "gh-pages": "^2.0.0"
   }
 }
